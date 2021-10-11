@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Roboto+Slab:wght@300&display=swap');
+
+body {
+  background: black;
+  color: antiquewhite;
+}
+
+header {
+  font-family: 'Creepster', cursive;
+  
+}
+
+.main-header {
+  font-size: xx-large;
+}
+
+summary {
+  font-family: 'Roboto Slab', serif;
+}
+
+.story {
+  font-family: 'Roboto Slab', serif;
+}
+
+li:before { content: '\1F480'; margin-left: -20px; margin-right: 10px; } 
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
