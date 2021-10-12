@@ -7,6 +7,7 @@ import {ApolloProvider} from 'react-apollo'
 //components
 import StoryList from "./components/StoryList";
 import Routes from "./components/Routes";
+import Ghost from "./components/Ghost";
 
 //Apollo client setup
 const client = new ApolloClient({
@@ -20,6 +21,7 @@ function App() {
       <header className="main-header">Scary Sentences API</header>
       <Routes/>
       <StoryList/>
+      <Ghost/>
     </div>
     </ApolloProvider>
   );

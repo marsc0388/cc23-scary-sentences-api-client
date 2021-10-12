@@ -24,7 +24,7 @@ function StoryList(props) {
         else {
             return data.Stories.map((story, index) => {
                 return (
-                    <li className="story" key={index}>{story.body}</li>
+                    <li className="story" key={index}>{story.body} - {story.author}</li>
                 );
             });
         }
